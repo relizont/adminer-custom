@@ -17,6 +17,10 @@ function adminer_object()
 		new AdminerSimpleMenu(),
 		new AdminerCollations(array("utf8_general_ci", "utf8mb4_general_ci")),
 		new AdminerJsonPreview(),
+    new AdminerDisableJush,
+    new AdminerAutocomplete,
+    new AdminerSaveMenuPos,
+    new AdminerRemoteColor,
 
 		// AdminerTheme has to be the last one.
 		new AdminerTheme('default-blue'),
