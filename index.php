@@ -19,7 +19,7 @@ function adminer_object()
 		new AdminerJsonPreview(),
 
 		// AdminerTheme has to be the last one.
-		new AdminerTheme(),
+		new AdminerTheme('default-blue'),
 	);
 
 	return new AdminerPlugin($plugins);
